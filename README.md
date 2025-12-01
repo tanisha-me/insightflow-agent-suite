@@ -1,6 +1,6 @@
-# InsightFlow — Enterprise Agent Suite
+# InsightFlow - Enterprise Agent Suite
 
-**Orchestrated agents that automate the entire analytics lifecycle — from raw files to decision-ready insights.**
+**Orchestrated agents that automate the entire analytics lifecycle - from raw files to decision-ready insights.**
 
 InsightFlow is an enterprise-focused, multi-agent analytics system designed to automate repetitive data tasks such as ingestion, cleaning, KPI computation, chart generation, and narrative summary creation. It mirrors the real workflow of an analytics team — Data Engineer → Analyst → Insight Writer — using coordinated agents, deterministic tools, memory, and structured orchestration.
 
@@ -107,7 +107,7 @@ This will:
 
 ---
 
-# 🤖 LLM / Gemini Integration (Bonus Feature)
+# 🤖 LLM / Gemini Integration 
 
 To enable enhanced insight generation:
 1. Open `llm_tools.py`  
@@ -126,7 +126,7 @@ This earns **bonus points** for “Effective Use of Gemini”.
 
 ---
 
-# ⚙️ ADK & A2A (Bonus Feature)
+# ⚙️ ADK & A2A 
 
 `adk_example.py` includes a clear mapping of this project to:
 
@@ -142,40 +142,18 @@ Even if not fully implemented here, judges can see:
 
 ---
 
-# 🌐 Deployment (Bonus Points)
+# 🌐 Deployment 
 
-If deployed (optional), you may:
-
-### Option A — Cloud Run  
+### Option A - Cloud Run  
 Wrap `OrchestratorAgent` inside a simple Flask API:
 ```bash
 POST /analyze → returns KPIs + narrative + charts
 ```
 
-### Option B — Agent Engine  
+### Option B - Agent Engine  
 Provide an A2A workflow file + agent definition.
 
 You can include deployment instructions inside the repo or Kaggle writeup to claim these bonus points.
-
----
-
-# 📘 Kaggle Notebook Usage (Optional)
-
-Example first cell for your Kaggle notebook:
-
-```bash
-!git clone https://github.com/<yourusername>/insightflow-agent-suite.git
-%cd insightflow-agent-suite
-!pip install -r requirements.txt
-!python insightflow_core.py
-```
-
-Add Markdown cells for:
-- Project description  
-- Architecture diagram  
-- Workflow diagram  
-- Narrative output  
-- Charts  
 
 ---
 
@@ -212,12 +190,12 @@ This project merges concepts learned in the Agents Intensive:
 - observability  
 - optional LLM intelligence  
 
-It is designed to be modular, explainable, and extensible — ideal for enterprise analytics automation.
+It is designed to be modular, explainable, and extensible - ideal for enterprise analytics automation.
 
 ---
 
 # 👤 Author
 
 **Komal Meena**  
-B.S. in Data Science & Applications — IIT Madras  
+B.S. in Data Science & Applications - IIT Madras  
 2025 Kaggle × Google AI Agents Intensive Participant  
