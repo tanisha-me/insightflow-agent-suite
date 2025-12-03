@@ -52,10 +52,9 @@ insightflow-agent-suite/
 ├── adk_example.py
 ├── requirements.txt
 ├── README.md
-├── thumbnails/
-│   ├── thumbnail_560x280.png
-│   ├── architecture.png
-│   └── workflow.png
+├── thumbnail_560x280.png
+├── architecture.png
+└── workflow.png
 └── insightflow_kaggle.ipynb  (optional)
 ```
 
@@ -135,6 +134,26 @@ POST /analyze-file
 which accepts a CSV and returns KPIs, charts, and narrative.
 
 ---
+
+## Live demo & outputs
+
+- KPI summary (generated): `kpi_summary.png`  
+- Monthly revenue chart (generated): `monthly_rerevenue.png` *(typo retained if present; consider renaming to `monthly_revenue.png`)*
+
+You can view these files in this repository.
+
+---
+
+## Features implemented
+
+- **Multi-Agent pattern**: Orchestrator + Data Intake & Validation + Analytics & KPI + Insight Writer.  
+- **Tool usage**: Python execution tools for deterministic KPI computation and chart generation.  
+- **Memory & session state**: Basic session memory model for conversational follow-ups (illustrative).  
+- **Observability**: Simple logging and output artifacts saved to `insightflow_logs/`.
+
+---
+
+## Repo structure
 
 ## Author
 
