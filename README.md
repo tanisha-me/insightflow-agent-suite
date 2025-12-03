@@ -155,6 +155,14 @@ You can view these files in this repository.
 
 ## Repo structure
 
+## Kaggle Reproducibility Notebook
+
+A full reproducibility notebook (data generation → agent run → chart outputs) is available on Kaggle:
+
+👉 **View Notebook:** https://www.kaggle.com/code/tanishamee/insightflow-enterprise-agent-suite-demo
+This notebook clones the GitHub repo, executes `insightflow_core.py`, and saves the generated PNG outputs.
+
+
 ## Author
 
 **Komal Meena**  
